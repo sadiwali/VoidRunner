@@ -33,4 +33,4 @@ server from the game, you can then close this CMD window.
 
 
 
-Brought to you by VoidGames(tm). Copyright 2015-2789. Made with Unity.
+Brought to you by VoidGames(tm). Copyright 2015. Made with Unity.
