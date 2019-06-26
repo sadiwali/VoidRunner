@@ -1,0 +1,49 @@
+Mono path[0] = 'C:/Users/sadiw/OneDrive/ICS/VoidRunnerSource/VOIDRUNNER_Data/Managed'
+Mono path[1] = 'C:/Users/sadiw/OneDrive/ICS/VoidRunnerSource/VOIDRUNNER_Data/Mono'
+Mono config path = 'C:/Users/sadiw/OneDrive/ICS/VoidRunnerSource/VOIDRUNNER_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/sadiw/OneDrive/ICS/VoidRunnerSource/VOIDRUNNER_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55253
+Multi-casting "[IP] 192.168.1.2 [Port] 55253 [Flags] 3 [Guid] 2786059471 [EditorId] 265336131 [Version] 1048832 [Id] WindowsPlayer(Sadi-PC) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [192.168.1.2:55253]...
+PlayerConnection accepted from [192.168.1.2] handle:0x5c
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56471
+PlayerConnection already initialized - listening to [192.168.1.2:55253]
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7700 Series (ID=0x683d)
+    Vendor:   ATI
+    VRAM:     1006 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.067 seconds
+desktop: 1920x1080 60Hz; virtual: 3360x1080 at -1440,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\VOIDRUNNER_Data\Managed\System.dll (this message is harmless)
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+wNT:STRT() (at F:\VoidRunnerSource\Assets\scripts\GM\wNT.cs:86)
+wNT:Start() (at F:\VoidRunnerSource\Assets\scripts\GM\wNT.cs:68)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 788 -> priority: 1 
+Waiting for finish

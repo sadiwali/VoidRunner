@@ -1,0 +1,63 @@
+Mono path[0] = 'C:/Users/sadiw/OneDrive/ICS/VoidRunnerSource/SadiW_NavaR_VOIDRUNNER/VOIDRUNNER_Data/Managed'
+Mono path[1] = 'C:/Users/sadiw/OneDrive/ICS/VoidRunnerSource/SadiW_NavaR_VOIDRUNNER/VOIDRUNNER_Data/Mono'
+Mono config path = 'C:/Users/sadiw/OneDrive/ICS/VoidRunnerSource/SadiW_NavaR_VOIDRUNNER/VOIDRUNNER_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/sadiw/OneDrive/ICS/VoidRunnerSource/SadiW_NavaR_VOIDRUNNER/VOIDRUNNER_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55387
+Multi-casting "[IP] 192.168.1.2 [Port] 55387 [Flags] 3 [Guid] 4224066137 [EditorId] 3844989561 [Version] 1048832 [Id] WindowsPlayer(Sadi-PC) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [192.168.1.2:55387]...
+Timed out. Continuing without host connection.
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56137
+PlayerConnection already initialized - listening to [192.168.1.2:55387]
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7700 Series (ID=0x683d)
+    Vendor:   ATI
+    VRAM:     1006 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\SadiW_NavaR_VOIDRUNNER\VOIDRUNNER_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\SadiW_NavaR_VOIDRUNNER\VOIDRUNNER_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\SadiW_NavaR_VOIDRUNNER\VOIDRUNNER_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\SadiW_NavaR_VOIDRUNNER\VOIDRUNNER_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\SadiW_NavaR_VOIDRUNNER\VOIDRUNNER_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\SadiW_NavaR_VOIDRUNNER\VOIDRUNNER_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\SadiW_NavaR_VOIDRUNNER\VOIDRUNNER_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\SadiW_NavaR_VOIDRUNNER\VOIDRUNNER_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\SadiW_NavaR_VOIDRUNNER\VOIDRUNNER_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.061 seconds
+desktop: 1920x1080 60Hz; virtual: 3360x1080 at -1440,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\SadiW_NavaR_VOIDRUNNER\VOIDRUNNER_Data\Managed\System.dll (this message is harmless)
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+wNT:STRT() (at C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\Assets\scripts\GM\wNT.cs:86)
+wNT:Start() (at C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\Assets\scripts\GM\wNT.cs:68)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 4624 -> priority: 1 
+low-level Network has been initialzed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+wNT:writeOut(String) (at C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\Assets\scripts\GM\wNT.cs:723)
+wNT:OnServerInitialized() (at C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\Assets\scripts\GM\wNT.cs:114)
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+wNT:StartServer() (at C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\Assets\scripts\GM\wNT.cs:189)
+<CheckMasterServerStart>c__Iterator2:MoveNext() (at C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\Assets\scripts\GM\menuScript.cs:130)
+ 
+(Filename: C:/Users/sadiw/OneDrive/ICS/VoidRunnerSource/Assets/scripts/GM/wNT.cs Line: 723)
+
+MasterServer registration succeeded!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+wNT:writeOut(String) (at C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\Assets\scripts\GM\wNT.cs:723)
+wNT:OnMasterServerEvent(MasterServerEvent) (at C:\Users\sadiw\OneDrive\ICS\VoidRunnerSource\Assets\scripts\GM\wNT.cs:121)
+ 
+(Filename: C:/Users/sadiw/OneDrive/ICS/VoidRunnerSource/Assets/scripts/GM/wNT.cs Line: 723)
+
