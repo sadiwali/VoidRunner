@@ -1,0 +1,3087 @@
+[
+ {
+  "path": "MapMan",
+  "name": "MapMan",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 28.89,
+  "y": 30.66,
+  "rot": 0.0,
+  "sx": 1.0,
+  "sy": 1.0,
+  "comps": []
+ },
+ {
+  "path": "MapMan/BG_mainBG",
+  "name": "BG_mainBG",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 31.5,
+  "y": 18.05,
+  "rot": 0.0,
+  "sx": 30.0,
+  "sy": 30.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "spr_mainBG",
+    "color": {
+     "r": 0.5514705777168274,
+     "g": 0.5514705777168274,
+     "b": 0.5514705777168274,
+     "a": 1.0
+    },
+    "order": -5,
+    "enabled": true,
+    "flipX": null
+   }
+  ]
+ },
+ {
+  "path": "MapMan/gO_checkpoint",
+  "name": "gO_checkpoint",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -9.67,
+  "y": 15.38,
+  "rot": 0.0,
+  "sx": 1.0,
+  "sy": 1.0,
+  "comps": [
+   {
+    "type": "MonoBehaviour",
+    "script": "Checkpoint",
+    "fields": {}
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 1.0,
+     "y": 1.2574586868286133
+    },
+    "offset": {
+     "x": 0.0,
+     "y": -0.12873077392578125
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "MapMan/gO_checkpoint 1",
+  "name": "gO_checkpoint 1",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 20.39,
+  "y": 12.82,
+  "rot": 0.0,
+  "sx": 1.0,
+  "sy": 1.0,
+  "comps": [
+   {
+    "type": "MonoBehaviour",
+    "script": "Checkpoint",
+    "fields": {}
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 1.0,
+     "y": 1.2574586868286133
+    },
+    "offset": {
+     "x": 0.0,
+     "y": -0.12873077392578125
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "MapMan/gO_npc_turret",
+  "name": "gO_npc_turret",
+  "tag": "Turret",
+  "layer": 0,
+  "active": true,
+  "x": 5.39,
+  "y": 15.69,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "Turret_ForTutorial_2_0",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": -1,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "Animator",
+    "controller": "anim_Turret_ForTutorial_2_0"
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 128 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "MapMan/gO_npc_turret 1",
+  "name": "gO_npc_turret 1",
+  "tag": "Turret",
+  "layer": 0,
+  "active": true,
+  "x": -13.31,
+  "y": 31.66,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "Turret_ForTutorial_2_0",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": -1,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "Animator",
+    "controller": "anim_Turret_ForTutorial_2_0"
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 128 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "MapMan/gO_npc_turret 1/AttackRangeTrigger",
+  "name": "AttackRangeTrigger",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -13.31,
+  "y": 31.66,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": []
+ },
+ {
+  "path": "MapMan/gO_npc_turret 1/AttackRangeTrigger/AttackRangeRight",
+  "name": "AttackRangeRight",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -13.13,
+  "y": 31.66,
+  "rot": 0.0,
+  "sx": -3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 48 bytes, but only read 32 bytes"
+   },
+   {
+    "type": "CircleCollider2D",
+    "radius": 3.8576793670654297,
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "MapMan/gO_npc_turret 1/Collider",
+  "name": "Collider",
+  "tag": "ground",
+  "layer": 0,
+  "active": true,
+  "x": -13.31,
+  "y": 31.459,
+  "rot": 0.0,
+  "sx": 1.9972,
+  "sy": 2.6755,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 1.0,
+     "y": 1.0
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "MapMan/gO_npc_turret 1/ShootPointLeft",
+  "name": "ShootPointLeft",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -14.369,
+  "y": 31.882,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": []
+ },
+ {
+  "path": "MapMan/gO_npc_turret 1/ShootPointRight",
+  "name": "ShootPointRight",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -12.656,
+  "y": 31.882,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": []
+ },
+ {
+  "path": "MapMan/gO_npc_turret/AttackRangeTrigger",
+  "name": "AttackRangeTrigger",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 5.39,
+  "y": 15.69,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": []
+ },
+ {
+  "path": "MapMan/gO_npc_turret/AttackRangeTrigger/AttackRangeRight",
+  "name": "AttackRangeRight",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 5.57,
+  "y": 15.69,
+  "rot": 0.0,
+  "sx": -3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 48 bytes, but only read 32 bytes"
+   },
+   {
+    "type": "CircleCollider2D",
+    "radius": 3.8576793670654297,
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "MapMan/gO_npc_turret/Collider",
+  "name": "Collider",
+  "tag": "ground",
+  "layer": 0,
+  "active": true,
+  "x": 5.39,
+  "y": 15.489,
+  "rot": 0.0,
+  "sx": 1.9972,
+  "sy": 2.6755,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 1.0,
+     "y": 1.0
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "MapMan/gO_npc_turret/ShootPointLeft",
+  "name": "ShootPointLeft",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 4.331,
+  "y": 15.912,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": []
+ },
+ {
+  "path": "MapMan/gO_npc_turret/ShootPointRight",
+  "name": "ShootPointRight",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 6.044,
+  "y": 15.912,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": []
+ },
+ {
+  "path": "cam_mainCam",
+  "name": "cam_mainCam",
+  "tag": "MainCamera",
+  "layer": 0,
+  "active": true,
+  "x": -9.6,
+  "y": 24.9,
+  "rot": 0.0,
+  "sx": 1.0,
+  "sy": 1.0,
+  "comps": [
+   {
+    "type": "Camera"
+   },
+   {
+    "type": "GUILayer"
+   },
+   {
+    "type": "FlareLayer"
+   },
+   {
+    "type": "AudioListener"
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 48 bytes, but only read 32 bytes"
+   },
+   {
+    "type": "AudioSource",
+    "clip": "koan-sound-view-from-above-original-mix[mp3freex]-"
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat",
+  "name": "gO_molerat",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -13.8016,
+  "y": 30.947,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "spr_npc_molerat_0",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "Animator",
+    "controller": "spr_npc_molerat_0"
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 76 bytes, but only read 32 bytes"
+   },
+   {
+    "type": "Rigidbody2D",
+    "m_Mass": 1.100000023841858,
+    "m_LinearDrag": 0.0,
+    "m_AngularDrag": 0.05000000074505806,
+    "m_GravityScale": 1.0,
+    "m_IsKinematic": false,
+    "m_Interpolate": 2,
+    "m_Constraints": 4
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.21789412200450897,
+     "y": 0.20000000298023224
+    },
+    "offset": {
+     "x": -0.02654266357421875,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.04991048574447632,
+     "y": 0.022043300792574883
+    },
+    "offset": {
+     "x": -0.013707923702895641,
+     "y": -0.12912559509277344
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (1)",
+  "name": "gO_molerat (1)",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -11.2852,
+  "y": 14.8642,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "spr_npc_molerat_0",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "Animator",
+    "controller": "spr_npc_molerat_0"
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 76 bytes, but only read 32 bytes"
+   },
+   {
+    "type": "Rigidbody2D",
+    "m_Mass": 1.100000023841858,
+    "m_LinearDrag": 0.0,
+    "m_AngularDrag": 0.05000000074505806,
+    "m_GravityScale": 1.0,
+    "m_IsKinematic": false,
+    "m_Interpolate": 2,
+    "m_Constraints": 4
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.21789412200450897,
+     "y": 0.20000000298023224
+    },
+    "offset": {
+     "x": -0.02654266357421875,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.04991048574447632,
+     "y": 0.022043300792574883
+    },
+    "offset": {
+     "x": -0.013707923702895641,
+     "y": -0.12912559509277344
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (1)/edgeChecker",
+  "name": "edgeChecker",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -11.2852,
+  "y": 14.8642,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "MonoBehaviour",
+    "script": "edgeChecker",
+    "fields": {}
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.011662733741104603,
+     "y": 0.08350253105163574
+    },
+    "offset": {
+     "x": -0.13653412461280823,
+     "y": -0.1212490126490593
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (1)/platformCheckDown",
+  "name": "platformCheckDown",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -11.2852,
+  "y": 14.8642,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.4092463552951813,
+     "y": 1.139032006263733
+    },
+    "offset": {
+     "x": -0.4065619111061096,
+     "y": -0.5763473510742188
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 36 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (1)/platformCheckUp",
+  "name": "platformCheckUp",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -11.2852,
+  "y": 14.8642,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.42122045159339905,
+     "y": 0.9355136752128601
+    },
+    "offset": {
+     "x": -0.40203648805618286,
+     "y": 0.48513564467430115
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 36 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (2)",
+  "name": "gO_molerat (2)",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 14.7536,
+  "y": 13.989,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "spr_npc_molerat_0",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "Animator",
+    "controller": "spr_npc_molerat_0"
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 76 bytes, but only read 32 bytes"
+   },
+   {
+    "type": "Rigidbody2D",
+    "m_Mass": 1.100000023841858,
+    "m_LinearDrag": 0.0,
+    "m_AngularDrag": 0.05000000074505806,
+    "m_GravityScale": 1.0,
+    "m_IsKinematic": false,
+    "m_Interpolate": 2,
+    "m_Constraints": 4
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.21789412200450897,
+     "y": 0.20000000298023224
+    },
+    "offset": {
+     "x": -0.02654266357421875,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.04991048574447632,
+     "y": 0.022043300792574883
+    },
+    "offset": {
+     "x": -0.013707923702895641,
+     "y": -0.12912559509277344
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (2)/edgeChecker",
+  "name": "edgeChecker",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 14.7536,
+  "y": 13.989,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "MonoBehaviour",
+    "script": "edgeChecker",
+    "fields": {}
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.011662733741104603,
+     "y": 0.08350253105163574
+    },
+    "offset": {
+     "x": -0.13653412461280823,
+     "y": -0.1212490126490593
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (2)/platformCheckDown",
+  "name": "platformCheckDown",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 14.7536,
+  "y": 13.989,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.4092463552951813,
+     "y": 1.139032006263733
+    },
+    "offset": {
+     "x": -0.4065619111061096,
+     "y": -0.5763473510742188
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 36 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (2)/platformCheckUp",
+  "name": "platformCheckUp",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 14.7536,
+  "y": 13.989,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.42122045159339905,
+     "y": 0.9355136752128601
+    },
+    "offset": {
+     "x": -0.40203648805618286,
+     "y": 0.48513564467430115
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 36 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (3)",
+  "name": "gO_molerat (3)",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 31.821,
+  "y": 29.6341,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "spr_npc_molerat_0",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "Animator",
+    "controller": "spr_npc_molerat_0"
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 76 bytes, but only read 32 bytes"
+   },
+   {
+    "type": "Rigidbody2D",
+    "m_Mass": 1.100000023841858,
+    "m_LinearDrag": 0.0,
+    "m_AngularDrag": 0.05000000074505806,
+    "m_GravityScale": 1.0,
+    "m_IsKinematic": false,
+    "m_Interpolate": 2,
+    "m_Constraints": 4
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.21789412200450897,
+     "y": 0.20000000298023224
+    },
+    "offset": {
+     "x": -0.02654266357421875,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.04991048574447632,
+     "y": 0.022043300792574883
+    },
+    "offset": {
+     "x": -0.013707923702895641,
+     "y": -0.12912559509277344
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (3)/edgeChecker",
+  "name": "edgeChecker",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 31.821,
+  "y": 29.6341,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "MonoBehaviour",
+    "script": "edgeChecker",
+    "fields": {}
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.011662733741104603,
+     "y": 0.08350253105163574
+    },
+    "offset": {
+     "x": -0.13653412461280823,
+     "y": -0.1212490126490593
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (3)/platformCheckDown",
+  "name": "platformCheckDown",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 31.821,
+  "y": 29.6341,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.4092463552951813,
+     "y": 1.139032006263733
+    },
+    "offset": {
+     "x": -0.4065619111061096,
+     "y": -0.5763473510742188
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 36 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (3)/platformCheckUp",
+  "name": "platformCheckUp",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 31.821,
+  "y": 29.6341,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.42122045159339905,
+     "y": 0.9355136752128601
+    },
+    "offset": {
+     "x": -0.40203648805618286,
+     "y": 0.48513564467430115
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 36 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (4)",
+  "name": "gO_molerat (4)",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -4.2983,
+  "y": -1.7696,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "spr_npc_molerat_0",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "Animator",
+    "controller": "spr_npc_molerat_0"
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 76 bytes, but only read 32 bytes"
+   },
+   {
+    "type": "Rigidbody2D",
+    "m_Mass": 1.100000023841858,
+    "m_LinearDrag": 0.0,
+    "m_AngularDrag": 0.05000000074505806,
+    "m_GravityScale": 1.0,
+    "m_IsKinematic": false,
+    "m_Interpolate": 2,
+    "m_Constraints": 4
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.21789412200450897,
+     "y": 0.20000000298023224
+    },
+    "offset": {
+     "x": -0.02654266357421875,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.04991048574447632,
+     "y": 0.022043300792574883
+    },
+    "offset": {
+     "x": -0.013707923702895641,
+     "y": -0.12912559509277344
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (4)/edgeChecker",
+  "name": "edgeChecker",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -4.2983,
+  "y": -1.7696,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "MonoBehaviour",
+    "script": "edgeChecker",
+    "fields": {}
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.011662733741104603,
+     "y": 0.08350253105163574
+    },
+    "offset": {
+     "x": -0.13653412461280823,
+     "y": -0.1212490126490593
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (4)/platformCheckDown",
+  "name": "platformCheckDown",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -4.2983,
+  "y": -1.7696,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.4092463552951813,
+     "y": 1.139032006263733
+    },
+    "offset": {
+     "x": -0.4065619111061096,
+     "y": -0.5763473510742188
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 36 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat (4)/platformCheckUp",
+  "name": "platformCheckUp",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -4.2983,
+  "y": -1.7696,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.42122045159339905,
+     "y": 0.9355136752128601
+    },
+    "offset": {
+     "x": -0.40203648805618286,
+     "y": 0.48513564467430115
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 36 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat/edgeChecker",
+  "name": "edgeChecker",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -13.8016,
+  "y": 30.947,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "MonoBehaviour",
+    "script": "edgeChecker",
+    "fields": {}
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.011662733741104603,
+     "y": 0.08350253105163574
+    },
+    "offset": {
+     "x": -0.13653412461280823,
+     "y": -0.1212490126490593
+    },
+    "trigger": true,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat/platformCheckDown",
+  "name": "platformCheckDown",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -13.8016,
+  "y": 30.947,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.4092463552951813,
+     "y": 1.139032006263733
+    },
+    "offset": {
+     "x": -0.4065619111061096,
+     "y": -0.5763473510742188
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 36 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "gO_molerat/platformCheckUp",
+  "name": "platformCheckUp",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -13.8016,
+  "y": 30.947,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 5.0,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.42122045159339905,
+     "y": 0.9355136752128601
+    },
+    "offset": {
+     "x": -0.40203648805618286,
+     "y": 0.48513564467430115
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 36 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "gm_GM",
+  "name": "gm_GM",
+  "tag": "nppt",
+  "layer": 0,
+  "active": true,
+  "x": 176.5484,
+  "y": 205.6562,
+  "rot": 0.0,
+  "sx": 1.0,
+  "sy": 1.0,
+  "comps": [
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 44 bytes, but only read 32 bytes"
+   },
+   {
+    "type": "MonoBehaviour",
+    "script": "checkLoad",
+    "fields": {}
+   }
+  ]
+ },
+ {
+  "path": "gm_GM/CharacterDead",
+  "name": "CharacterDead",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 8.5,
+  "y": 47.5562,
+  "rot": 0.0,
+  "sx": 91.0,
+  "sy": 10.0,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 1.9725162982940674,
+     "y": 0.271728515625
+    },
+    "offset": {
+     "x": 0.2880655825138092,
+     "y": -6.304722785949707
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "script": "LevelReload",
+    "fields": {}
+   }
+  ]
+ },
+ {
+  "path": "gm_GM/NextLevelCollider",
+  "name": "NextLevelCollider",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": 28.5884,
+  "y": 7.7862,
+  "rot": 0.0,
+  "sx": 5.0,
+  "sy": 2.0,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.3071419298648834,
+     "y": 1.0
+    },
+    "offset": {
+     "x": 0.346435546875,
+     "y": 0.0
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "script": "NextLevelCollider",
+    "fields": {}
+   }
+  ]
+ },
+ {
+  "path": "go_plr",
+  "name": "go_plr",
+  "tag": "plr",
+  "layer": 0,
+  "active": true,
+  "x": -29.2,
+  "y": 31.0,
+  "rot": 0.0,
+  "sx": 1.0,
+  "sy": 1.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "char_0",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 5,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "Animator",
+    "controller": "char_0"
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.3141489028930664,
+     "y": 1.5255415439605713
+    },
+    "offset": {
+     "x": 0.034976959228515625,
+     "y": -0.014528274536132812
+    },
+    "trigger": false,
+    "enabled": 1
+   },
+   {
+    "type": "Rigidbody2D",
+    "m_Mass": 1.0,
+    "m_LinearDrag": 0.0,
+    "m_AngularDrag": 0.05000000074505806,
+    "m_GravityScale": 1.0,
+    "m_IsKinematic": false,
+    "m_Interpolate": 2,
+    "m_Constraints": 4
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 152 bytes, but only read 32 bytes"
+   },
+   {
+    "type": "AudioSource",
+    "clip": "jumpland44100"
+   }
+  ]
+ },
+ {
+  "path": "go_plr/GroundChecker",
+  "name": "GroundChecker",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -29.1,
+  "y": 30.26,
+  "rot": 0.0,
+  "sx": 0.4247,
+  "sy": 0.274,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.6365530490875244,
+     "y": 0.2198333591222763
+    },
+    "offset": {
+     "x": -0.19570456445217133,
+     "y": -0.11308950185775757
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 44 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "go_plr/WallChecker",
+  "name": "WallChecker",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -29.122,
+  "y": 30.26,
+  "rot": 0.0,
+  "sx": 0.4247,
+  "sy": 0.274,
+  "comps": [
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.14317534863948822,
+     "y": 0.601582944393158
+    },
+    "offset": {
+     "x": 0.5089395642280579,
+     "y": 0.8017891049385071
+    },
+    "trigger": true,
+    "enabled": 1
+   },
+   {
+    "type": "MonoBehaviour",
+    "err": "Expected to read 44 bytes, but only read 32 bytes"
+   }
+  ]
+ },
+ {
+  "path": "map_2",
+  "name": "map_2",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": true,
+  "x": -1.1488,
+  "y": -2.5,
+  "rot": 0.0,
+  "sx": 1.0,
+  "sy": 1.0,
+  "comps": []
+ },
+ {
+  "path": "map_2/dark_flat_elong (1)",
+  "name": "dark_flat_elong (1)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -0.9382,
+  "y": 13.8186,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_21",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 7.888888835906982,
+     "y": 0.3333333432674408
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_elong (2)",
+  "name": "dark_flat_elong (2)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -18.6352,
+  "y": 29.6252,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_21",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 7.888888835906982,
+     "y": 0.3333333432674408
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_long",
+  "name": "dark_flat_long",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 36.4041,
+  "y": 6.4338,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_20",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 4.55555534362793,
+     "y": 0.3333333432674408
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_long",
+  "name": "dark_flat_long",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -22.47,
+  "y": 25.8049,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_20",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 4.55555534362793,
+     "y": 0.3333333432674408
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_long (1)",
+  "name": "dark_flat_long (1)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 13.0014,
+  "y": 28.6692,
+  "rot": -32.134,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_20",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 4.55555534362793,
+     "y": 0.3333333432674408
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_mid",
+  "name": "dark_flat_mid",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 11.1427,
+  "y": 7.5042,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_19",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 1.7222222089767456,
+     "y": 0.3333333432674408
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_mid (1)",
+  "name": "dark_flat_mid (1)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 15.14,
+  "y": 13.0886,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_19",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 1.7222222089767456,
+     "y": 0.3333333432674408
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_mid (2)",
+  "name": "dark_flat_mid (2)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -32.9,
+  "y": 27.3186,
+  "rot": -34.981,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_19",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 1.7222222089767456,
+     "y": 0.3333333432674408
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_mid (3)",
+  "name": "dark_flat_mid (3)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -10.2302,
+  "y": -3.3253,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_19",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 1.7222222089767456,
+     "y": 0.3333333432674408
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_mid (4)",
+  "name": "dark_flat_mid (4)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -5.3113,
+  "y": -3.3253,
+  "rot": 0.0,
+  "sx": -3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_19",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 1.7222222089767456,
+     "y": 0.3333333432674408
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small",
+  "name": "dark_flat_small",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 31.92,
+  "y": 28.15,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small",
+  "name": "dark_flat_small",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 0.6,
+  "y": -1.6398,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small (1)",
+  "name": "dark_flat_small (1)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -4.11,
+  "y": 0.7886,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small (10)",
+  "name": "dark_flat_small (10)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 20.7,
+  "y": 28.7186,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small (11)",
+  "name": "dark_flat_small (11)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 26.5412,
+  "y": 30.05,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small (2)",
+  "name": "dark_flat_small (2)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -9.12,
+  "y": 2.7761,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small (3)",
+  "name": "dark_flat_small (3)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -4.55,
+  "y": 4.7633,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small (4)",
+  "name": "dark_flat_small (4)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 4.8657,
+  "y": 6.3721,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small (5)",
+  "name": "dark_flat_small (5)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 20.3329,
+  "y": 11.3504,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small (6)",
+  "name": "dark_flat_small (6)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -8.2288,
+  "y": 16.54,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small (7)",
+  "name": "dark_flat_small (7)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -12.2588,
+  "y": 19.78,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small (8)",
+  "name": "dark_flat_small (8)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -8.3188,
+  "y": 22.79,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_small (9)",
+  "name": "dark_flat_small (9)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -2.0,
+  "y": 29.5186,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_18",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.8333333134651184,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_tiny",
+  "name": "dark_flat_tiny",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -1.09,
+  "y": 5.1286,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_17",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.2777777910232544,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_tiny (1)",
+  "name": "dark_flat_tiny (1)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 1.317,
+  "y": 5.899,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_17",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.2777777910232544,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_tiny (2)",
+  "name": "dark_flat_tiny (2)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 16.1,
+  "y": 9.1186,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_17",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.2777777910232544,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_tiny (3)",
+  "name": "dark_flat_tiny (3)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 2.7275,
+  "y": 30.8756,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_17",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.2777777910232544,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_flat_tiny (4)",
+  "name": "dark_flat_tiny (4)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 2.91,
+  "y": 30.8756,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_17",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.2777777910232544,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_long",
+  "name": "dark_tall_long",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -12.1557,
+  "y": 3.087,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_3",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.3333333432674408,
+     "y": 4.55555534362793
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_mid",
+  "name": "dark_tall_mid",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 36.13,
+  "y": 17.96,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 8.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_9",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.3333333432674408,
+     "y": 2.1666667461395264
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_mid",
+  "name": "dark_tall_mid",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -12.1557,
+  "y": 10.875,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_9",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.3333333432674408,
+     "y": 2.1666667461395264
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_mid (1)",
+  "name": "dark_tall_mid (1)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -13.0188,
+  "y": 16.68,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_9",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.3333333432674408,
+     "y": 2.1666667461395264
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_mid (2)",
+  "name": "dark_tall_mid (2)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -13.0188,
+  "y": 22.41,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_9",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.3333333432674408,
+     "y": 2.1666667461395264
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_mid (3)",
+  "name": "dark_tall_mid (3)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -7.3588,
+  "y": 24.91,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_9",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.3333333432674408,
+     "y": 2.1666667461395264
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_mid (4)",
+  "name": "dark_tall_mid (4)",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -7.3588,
+  "y": 19.18,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_9",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.3333333432674408,
+     "y": 2.1666667461395264
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_mid 1",
+  "name": "dark_tall_mid 1",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 42.34,
+  "y": 18.01,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 8.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_9",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.3333333432674408,
+     "y": 2.1666667461395264
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_small",
+  "name": "dark_tall_small",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": -7.36,
+  "y": 28.4291,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_6",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.3333333432674408,
+     "y": 0.8333333134651184
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_tiny",
+  "name": "dark_tall_tiny",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 29.9683,
+  "y": 7.0494,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_4",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.2777777910232544,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_tiny 1",
+  "name": "dark_tall_tiny 1",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 29.97,
+  "y": 7.9,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_4",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.2777777910232544,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_tiny 2",
+  "name": "dark_tall_tiny 2",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 29.97,
+  "y": 8.75,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_4",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.2777777910232544,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ },
+ {
+  "path": "map_2/dark_tall_tiny 3",
+  "name": "dark_tall_tiny 3",
+  "tag": "ground",
+  "layer": 8,
+  "active": true,
+  "x": 29.97,
+  "y": 9.66,
+  "rot": 0.0,
+  "sx": 3.0,
+  "sy": 3.0,
+  "comps": [
+   {
+    "type": "SpriteRenderer",
+    "sprite": "map_Builder_v2_4",
+    "color": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "order": 0,
+    "enabled": true,
+    "flipX": null
+   },
+   {
+    "type": "BoxCollider2D",
+    "size": {
+     "x": 0.2777777910232544,
+     "y": 0.3888888955116272
+    },
+    "offset": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "trigger": false,
+    "enabled": 1
+   }
+  ]
+ }
+]

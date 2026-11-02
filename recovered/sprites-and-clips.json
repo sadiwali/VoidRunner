@@ -1,0 +1,2068 @@
+{
+ "sprites": {
+  "UISprite": {
+   "tex": "UISprite",
+   "x": 0.02675098180770874,
+   "y": 0.05131775140762329,
+   "w": 31.94649887084961,
+   "h": 31.89736557006836,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 32.0,
+   "rh": 32.0,
+   "ppu": 200.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Background": {
+   "tex": "Background",
+   "x": 0.02675098180770874,
+   "y": 0.05131775140762329,
+   "w": 31.94649887084961,
+   "h": 31.89736557006836,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 32.0,
+   "rh": 32.0,
+   "ppu": 200.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Knob": {
+   "tex": "Knob",
+   "x": 12.026750564575195,
+   "y": 12.026754379272461,
+   "w": 39.946495056152344,
+   "h": 39.946495056152344,
+   "rx": 12.0,
+   "ry": 12.0,
+   "rw": 40.0,
+   "rh": 40.0,
+   "ppu": 200.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_menu_serverSearch": {
+   "tex": "spr_menu_serverSearch",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 209.0,
+   "h": 34.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 209.0,
+   "rh": 34.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_vig": {
+   "tex": "spr_vig",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 1280.0,
+   "h": 1024.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 1280.0,
+   "rh": 1024.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_title": {
+   "tex": "spr_title",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 663.0,
+   "h": 274.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 663.0,
+   "rh": 274.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_menu_back": {
+   "tex": "spr_menu_back",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 195.0,
+   "h": 57.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 195.0,
+   "rh": 57.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_achievements": {
+   "tex": "spr_achievements",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 296.0,
+   "h": 82.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 296.0,
+   "rh": 82.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_menu_play_2": {
+   "tex": "spr_menu_play_2",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 467.0,
+   "h": 149.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 467.0,
+   "rh": 149.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_menu_solo": {
+   "tex": "spr_menu_solo",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 397.0,
+   "h": 397.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 397.0,
+   "rh": 397.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_menu_comp": {
+   "tex": "spr_menu_comp",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 397.0,
+   "h": 397.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 397.0,
+   "rh": 397.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_nameInput": {
+   "tex": "spr_nameInput",
+   "x": 5.0267510414123535,
+   "y": -1.9073486328125e-06,
+   "w": 461.8971252441406,
+   "h": 56.92388153076172,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 471.0,
+   "rh": 63.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_menu_play_1": {
+   "tex": "spr_menu_play_1",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 195.0,
+   "h": 57.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 195.0,
+   "rh": 57.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_menu_startServer": {
+   "tex": "spr_menu_startServer",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 471.0,
+   "h": 57.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 471.0,
+   "rh": 57.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_sayerBG": {
+   "tex": "spr_sayerBG",
+   "x": 8.076120376586914,
+   "y": 2.063909411430359,
+   "w": 1242.84765625,
+   "h": 131.85997009277344,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 1262.0,
+   "rh": 134.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_menu_achievements": {
+   "tex": "spr_menu_achievements",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 426.0,
+   "h": 57.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 426.0,
+   "rh": 57.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_0": {
+   "tex": "spr_npc_turret",
+   "x": 0.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 0.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_white": {
+   "tex": "spr_white",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 1920.0,
+   "h": 1080.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 1920.0,
+   "rh": 1080.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_wisp": {
+   "tex": "spr_wisp",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 16.0,
+   "h": 16.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 16.0,
+   "rh": 16.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_mainBG": {
+   "tex": "spr_mainBG",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 512.0,
+   "h": 512.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 512.0,
+   "rh": 512.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_npc_molerat_0": {
+   "tex": "spr_npc_molerat",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 20.0,
+   "h": 20.0,
+   "rx": 0.0,
+   "ry": 75.0,
+   "rw": 20.0,
+   "rh": 20.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_red": {
+   "tex": "spr_red",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 1928.0,
+   "h": 1080.0,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 1928.0,
+   "rh": 1080.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Hearts_0": {
+   "tex": "spr_hearts",
+   "x": 2.0,
+   "y": 2.0,
+   "w": 83.0,
+   "h": 13.0,
+   "rx": 2.0,
+   "ry": 77.0,
+   "rw": 83.0,
+   "rh": 13.0,
+   "ppu": 25.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_0": {
+   "tex": "spr_char",
+   "x": 0.0,
+   "y": 11.0,
+   "w": 20.0,
+   "h": 29.0,
+   "rx": 0.0,
+   "ry": 160.0,
+   "rw": 20.0,
+   "rh": 29.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_1": {
+   "tex": "spr_npc_turret",
+   "x": 16.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 16.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_npc_molerat_1": {
+   "tex": "spr_npc_molerat",
+   "x": 20.0,
+   "y": 0.0,
+   "w": 20.0,
+   "h": 20.0,
+   "rx": 20.0,
+   "ry": 75.0,
+   "rw": 20.0,
+   "rh": 20.0,
+   "ppu": 100.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Hearts_1": {
+   "tex": "spr_hearts",
+   "x": 2.0,
+   "y": 17.0,
+   "w": 84.0,
+   "h": 13.0,
+   "rx": 2.0,
+   "ry": 62.0,
+   "rw": 84.0,
+   "rh": 13.0,
+   "ppu": 25.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_1": {
+   "tex": "spr_char",
+   "x": 20.0,
+   "y": 11.0,
+   "w": 20.0,
+   "h": 29.0,
+   "rx": 20.0,
+   "ry": 160.0,
+   "rw": 20.0,
+   "rh": 29.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_2": {
+   "tex": "spr_npc_turret",
+   "x": 32.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 32.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Hearts_2": {
+   "tex": "spr_hearts",
+   "x": 2.0,
+   "y": 32.0,
+   "w": 83.0,
+   "h": 13.0,
+   "rx": 2.0,
+   "ry": 47.0,
+   "rw": 83.0,
+   "rh": 13.0,
+   "ppu": 25.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_2": {
+   "tex": "spr_char",
+   "x": 40.0,
+   "y": 11.0,
+   "w": 20.0,
+   "h": 29.0,
+   "rx": 40.0,
+   "ry": 160.0,
+   "rw": 20.0,
+   "rh": 29.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_3": {
+   "tex": "spr_npc_turret",
+   "x": 48.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 48.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Hearts_3": {
+   "tex": "spr_hearts",
+   "x": 2.0,
+   "y": 47.0,
+   "w": 83.0,
+   "h": 13.0,
+   "rx": 2.0,
+   "ry": 32.0,
+   "rw": 83.0,
+   "rh": 13.0,
+   "ppu": 25.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_3": {
+   "tex": "spr_char",
+   "x": 60.0,
+   "y": 11.0,
+   "w": 20.0,
+   "h": 29.0,
+   "rx": 60.0,
+   "ry": 160.0,
+   "rw": 20.0,
+   "rh": 29.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_4": {
+   "tex": "spr_npc_turret",
+   "x": 64.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 64.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Hearts_4": {
+   "tex": "spr_hearts",
+   "x": 2.0,
+   "y": 62.0,
+   "w": 83.0,
+   "h": 13.0,
+   "rx": 2.0,
+   "ry": 17.0,
+   "rw": 83.0,
+   "rh": 13.0,
+   "ppu": 25.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_4": {
+   "tex": "spr_char",
+   "x": 0.0,
+   "y": 51.0,
+   "w": 20.0,
+   "h": 29.0,
+   "rx": 0.0,
+   "ry": 120.0,
+   "rw": 20.0,
+   "rh": 29.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_5": {
+   "tex": "spr_npc_turret",
+   "x": 80.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 80.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Hearts_5": {
+   "tex": "spr_hearts",
+   "x": 2.0,
+   "y": 77.0,
+   "w": 83.0,
+   "h": 13.0,
+   "rx": 2.0,
+   "ry": 2.0,
+   "rw": 83.0,
+   "rh": 13.0,
+   "ppu": 25.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_5": {
+   "tex": "spr_char",
+   "x": 20.0,
+   "y": 51.0,
+   "w": 20.0,
+   "h": 29.0,
+   "rx": 20.0,
+   "ry": 120.0,
+   "rw": 20.0,
+   "rh": 29.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_6": {
+   "tex": "spr_npc_turret",
+   "x": 96.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 96.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_6": {
+   "tex": "spr_char",
+   "x": 40.0,
+   "y": 51.0,
+   "w": 20.0,
+   "h": 29.0,
+   "rx": 40.0,
+   "ry": 120.0,
+   "rw": 20.0,
+   "rh": 29.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_7": {
+   "tex": "spr_npc_turret",
+   "x": 112.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 112.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_7": {
+   "tex": "spr_char",
+   "x": 60.0,
+   "y": 51.0,
+   "w": 20.0,
+   "h": 29.0,
+   "rx": 60.0,
+   "ry": 120.0,
+   "rw": 20.0,
+   "rh": 29.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_8": {
+   "tex": "spr_npc_turret",
+   "x": 128.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 128.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_8": {
+   "tex": "map_Builder_v2",
+   "x": 177.0,
+   "y": 57.0,
+   "w": 5.0,
+   "h": 7.0,
+   "rx": 177.0,
+   "ry": 86.0,
+   "rw": 5.0,
+   "rh": 7.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_8": {
+   "tex": "spr_char",
+   "x": 80.0,
+   "y": 51.0,
+   "w": 20.0,
+   "h": 29.0,
+   "rx": 80.0,
+   "ry": 120.0,
+   "rw": 20.0,
+   "rh": 29.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_9": {
+   "tex": "spr_npc_turret",
+   "x": 144.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 144.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_9": {
+   "tex": "spr_char",
+   "x": 100.0,
+   "y": 51.0,
+   "w": 20.0,
+   "h": 29.0,
+   "rx": 100.0,
+   "ry": 120.0,
+   "rw": 20.0,
+   "rh": 29.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_10": {
+   "tex": "spr_npc_turret",
+   "x": 160.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 160.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_10": {
+   "tex": "spr_char",
+   "x": 120.0,
+   "y": 51.0,
+   "w": 20.0,
+   "h": 29.0,
+   "rx": 120.0,
+   "ry": 120.0,
+   "rw": 20.0,
+   "rh": 29.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_11": {
+   "tex": "spr_npc_turret",
+   "x": 176.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 176.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_11": {
+   "tex": "spr_char",
+   "x": 140.0,
+   "y": 51.0,
+   "w": 20.0,
+   "h": 29.0,
+   "rx": 140.0,
+   "ry": 120.0,
+   "rw": 20.0,
+   "rh": 29.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_12": {
+   "tex": "spr_npc_turret",
+   "x": 192.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 192.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_12": {
+   "tex": "spr_char",
+   "x": 0.0,
+   "y": 88.0,
+   "w": 20.0,
+   "h": 32.0,
+   "rx": 0.0,
+   "ry": 80.0,
+   "rw": 20.0,
+   "rh": 32.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_13": {
+   "tex": "spr_npc_turret",
+   "x": 208.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 208.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_13": {
+   "tex": "spr_char",
+   "x": 25.0,
+   "y": 88.0,
+   "w": 20.0,
+   "h": 32.0,
+   "rx": 25.0,
+   "ry": 80.0,
+   "rw": 20.0,
+   "rh": 32.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_14": {
+   "tex": "spr_npc_turret",
+   "x": 224.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 224.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_15": {
+   "tex": "spr_npc_turret",
+   "x": 240.0,
+   "y": 1.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 240.0,
+   "ry": 59.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_16": {
+   "tex": "spr_npc_turret",
+   "x": 0.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 0.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_16": {
+   "tex": "spr_char",
+   "x": 97.0,
+   "y": 100.0,
+   "w": 20.0,
+   "h": 20.0,
+   "rx": 97.0,
+   "ry": 80.0,
+   "rw": 20.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_17": {
+   "tex": "spr_npc_turret",
+   "x": 16.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 16.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_17": {
+   "tex": "spr_char",
+   "x": 127.0,
+   "y": 81.0,
+   "w": 8.0,
+   "h": 39.0,
+   "rx": 127.0,
+   "ry": 80.0,
+   "rw": 8.0,
+   "rh": 39.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_18": {
+   "tex": "spr_npc_turret",
+   "x": 32.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 32.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_18": {
+   "tex": "map_Builder_v2",
+   "x": 30.0,
+   "y": 111.0,
+   "w": 15.0,
+   "h": 7.0,
+   "rx": 30.0,
+   "ry": 32.0,
+   "rw": 15.0,
+   "rh": 7.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "char_18": {
+   "tex": "spr_char",
+   "x": 145.0,
+   "y": 81.0,
+   "w": 8.0,
+   "h": 39.0,
+   "rx": 145.0,
+   "ry": 80.0,
+   "rw": 8.0,
+   "rh": 39.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_19": {
+   "tex": "spr_npc_turret",
+   "x": 48.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 48.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_20": {
+   "tex": "spr_npc_turret",
+   "x": 64.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 64.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_21": {
+   "tex": "spr_npc_turret",
+   "x": 80.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 80.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_22": {
+   "tex": "spr_npc_turret",
+   "x": 96.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 96.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_22": {
+   "tex": "map_Builder_v2",
+   "x": 41.0,
+   "y": 133.0,
+   "w": 5.0,
+   "h": 7.0,
+   "rx": 41.0,
+   "ry": 10.0,
+   "rw": 5.0,
+   "rh": 7.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_23": {
+   "tex": "spr_npc_turret",
+   "x": 112.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 112.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_23": {
+   "tex": "map_Builder_v2",
+   "x": 48.0,
+   "y": 133.0,
+   "w": 15.0,
+   "h": 7.0,
+   "rx": 48.0,
+   "ry": 10.0,
+   "rw": 15.0,
+   "rh": 7.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_24": {
+   "tex": "spr_npc_turret",
+   "x": 128.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 128.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_24": {
+   "tex": "map_Builder_v2",
+   "x": 67.0,
+   "y": 133.0,
+   "w": 31.0,
+   "h": 6.0,
+   "rx": 67.0,
+   "ry": 11.0,
+   "rw": 31.0,
+   "rh": 6.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_25": {
+   "tex": "spr_npc_turret",
+   "x": 144.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 144.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_25": {
+   "tex": "map_Builder_v2",
+   "x": 101.0,
+   "y": 133.0,
+   "w": 82.0,
+   "h": 6.0,
+   "rx": 101.0,
+   "ry": 11.0,
+   "rw": 82.0,
+   "rh": 6.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_26": {
+   "tex": "spr_npc_turret",
+   "x": 160.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 160.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_26": {
+   "tex": "map_Builder_v2",
+   "x": 41.0,
+   "y": 144.0,
+   "w": 142.0,
+   "h": 6.0,
+   "rx": 41.0,
+   "ry": 0.0,
+   "rw": 142.0,
+   "rh": 6.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_27": {
+   "tex": "spr_npc_turret",
+   "x": 176.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 176.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_28": {
+   "tex": "spr_npc_turret",
+   "x": 192.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 192.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_29": {
+   "tex": "spr_npc_turret",
+   "x": 208.0,
+   "y": 22.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 208.0,
+   "ry": 38.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Bullet": {
+   "tex": "spr_npc_turret",
+   "x": 229.0,
+   "y": 29.0,
+   "w": 4.0,
+   "h": 4.0,
+   "rx": 229.0,
+   "ry": 47.0,
+   "rw": 4.0,
+   "rh": 4.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_31": {
+   "tex": "spr_npc_turret",
+   "x": 0.0,
+   "y": 43.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 0.0,
+   "ry": 17.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_32": {
+   "tex": "spr_npc_turret",
+   "x": 16.0,
+   "y": 43.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 16.0,
+   "ry": 17.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_33": {
+   "tex": "spr_npc_turret",
+   "x": 32.0,
+   "y": 43.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 32.0,
+   "ry": 17.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_34": {
+   "tex": "spr_npc_turret",
+   "x": 48.0,
+   "y": 43.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 48.0,
+   "ry": 17.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_35": {
+   "tex": "spr_npc_turret",
+   "x": 64.0,
+   "y": 43.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 64.0,
+   "ry": 17.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_36": {
+   "tex": "spr_npc_turret",
+   "x": 80.0,
+   "y": 43.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 80.0,
+   "ry": 17.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_37": {
+   "tex": "spr_npc_turret",
+   "x": 96.0,
+   "y": 43.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 96.0,
+   "ry": 17.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_38": {
+   "tex": "spr_npc_turret",
+   "x": 112.0,
+   "y": 43.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 112.0,
+   "ry": 17.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_39": {
+   "tex": "spr_npc_turret",
+   "x": 128.0,
+   "y": 43.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 128.0,
+   "ry": 17.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "Turret_ForTutorial_2_40": {
+   "tex": "spr_npc_turret",
+   "x": 144.0,
+   "y": 43.0,
+   "w": 16.0,
+   "h": 20.0,
+   "rx": 144.0,
+   "ry": 17.0,
+   "rw": 16.0,
+   "rh": 20.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_3": {
+   "tex": "map_Builder_v2",
+   "x": 150.0,
+   "y": 24.0,
+   "w": 6.0,
+   "h": 82.0,
+   "rx": 150.0,
+   "ry": 44.0,
+   "rw": 6.0,
+   "rh": 82.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_4": {
+   "tex": "map_Builder_v2",
+   "x": 159.0,
+   "y": 35.0,
+   "w": 5.0,
+   "h": 7.0,
+   "rx": 159.0,
+   "ry": 108.0,
+   "rw": 5.0,
+   "rh": 7.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_6": {
+   "tex": "map_Builder_v2",
+   "x": 159.0,
+   "y": 47.0,
+   "w": 6.0,
+   "h": 15.0,
+   "rx": 159.0,
+   "ry": 88.0,
+   "rw": 6.0,
+   "rh": 15.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_9": {
+   "tex": "map_Builder_v2",
+   "x": 159.0,
+   "y": 67.0,
+   "w": 6.0,
+   "h": 39.0,
+   "rx": 159.0,
+   "ry": 44.0,
+   "rw": 6.0,
+   "rh": 39.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_17": {
+   "tex": "map_Builder_v2",
+   "x": 23.0,
+   "y": 111.0,
+   "w": 5.0,
+   "h": 7.0,
+   "rx": 23.0,
+   "ry": 32.0,
+   "rw": 5.0,
+   "rh": 7.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_19": {
+   "tex": "map_Builder_v2",
+   "x": 49.0,
+   "y": 111.0,
+   "w": 31.0,
+   "h": 6.0,
+   "rx": 49.0,
+   "ry": 33.0,
+   "rw": 31.0,
+   "rh": 6.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_20": {
+   "tex": "map_Builder_v2",
+   "x": 83.0,
+   "y": 111.0,
+   "w": 82.0,
+   "h": 6.0,
+   "rx": 83.0,
+   "ry": 33.0,
+   "rw": 82.0,
+   "rh": 6.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_21": {
+   "tex": "map_Builder_v2",
+   "x": 23.0,
+   "y": 122.0,
+   "w": 142.0,
+   "h": 6.0,
+   "rx": 23.0,
+   "ry": 22.0,
+   "rw": 142.0,
+   "rh": 6.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "spr_arrow_downright": {
+   "tex": "spr_arrow_downright",
+   "x": 14.030342102050781,
+   "y": 3.033498764038086,
+   "w": 30.906593322753906,
+   "h": 53.890380859375,
+   "rx": 0.0,
+   "ry": 0.0,
+   "rw": 64.0,
+   "rh": 64.0,
+   "ppu": 52.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_0": {
+   "tex": "map_Builder_v2",
+   "x": 127.0,
+   "y": 0.0,
+   "w": 6.0,
+   "h": 82.0,
+   "rx": 127.0,
+   "ry": 68.0,
+   "rw": 6.0,
+   "rh": 82.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_1": {
+   "tex": "map_Builder_v2",
+   "x": 136.0,
+   "y": 11.0,
+   "w": 5.0,
+   "h": 7.0,
+   "rx": 136.0,
+   "ry": 132.0,
+   "rw": 5.0,
+   "rh": 7.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_2": {
+   "tex": "map_Builder_v2",
+   "x": 136.0,
+   "y": 23.0,
+   "w": 6.0,
+   "h": 15.0,
+   "rx": 136.0,
+   "ry": 112.0,
+   "rw": 6.0,
+   "rh": 15.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_11": {
+   "tex": "map_Builder_v2",
+   "x": 0.0,
+   "y": 87.0,
+   "w": 5.0,
+   "h": 7.0,
+   "rx": 0.0,
+   "ry": 56.0,
+   "rw": 5.0,
+   "rh": 7.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_12": {
+   "tex": "map_Builder_v2",
+   "x": 7.0,
+   "y": 87.0,
+   "w": 15.0,
+   "h": 7.0,
+   "rx": 7.0,
+   "ry": 56.0,
+   "rw": 15.0,
+   "rh": 7.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_13": {
+   "tex": "map_Builder_v2",
+   "x": 26.0,
+   "y": 87.0,
+   "w": 31.0,
+   "h": 6.0,
+   "rx": 26.0,
+   "ry": 57.0,
+   "rw": 31.0,
+   "rh": 6.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_14": {
+   "tex": "map_Builder_v2",
+   "x": 60.0,
+   "y": 87.0,
+   "w": 82.0,
+   "h": 6.0,
+   "rx": 60.0,
+   "ry": 57.0,
+   "rw": 82.0,
+   "rh": 6.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  },
+  "map_Builder_v2_16": {
+   "tex": "map_Builder_v2",
+   "x": 0.0,
+   "y": 98.0,
+   "w": 142.0,
+   "h": 6.0,
+   "rx": 0.0,
+   "ry": 46.0,
+   "rw": 142.0,
+   "rh": 6.0,
+   "ppu": 18.0,
+   "pivot": null,
+   "off": [
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "clips": {
+  "anim_mm_facet": {
+   "frames": [],
+   "rate": 60.0,
+   "stop": 486.95001220703125,
+   "loop": true
+  },
+  "anim_Turret_LookLeft": {
+   "frames": [
+    "Turret_ForTutorial_2_22"
+   ],
+   "rate": 60.0,
+   "stop": 0.01666666753590107,
+   "loop": true
+  },
+  "anim_Turret_LookRight": {
+   "frames": [
+    "Turret_ForTutorial_2_26"
+   ],
+   "rate": 60.0,
+   "stop": 0.01666666753590107,
+   "loop": true
+  },
+  "anim_Turret_Sleep": {
+   "frames": [
+    "Turret_ForTutorial_2_14",
+    "Turret_ForTutorial_2_13",
+    "Turret_ForTutorial_2_12",
+    "Turret_ForTutorial_2_11",
+    "Turret_ForTutorial_2_10",
+    "Turret_ForTutorial_2_9",
+    "Turret_ForTutorial_2_8",
+    "Turret_ForTutorial_2_7",
+    "Turret_ForTutorial_2_6",
+    "Turret_ForTutorial_2_5",
+    "Turret_ForTutorial_2_4",
+    "Turret_ForTutorial_2_3",
+    "Turret_ForTutorial_2_2",
+    "Turret_ForTutorial_2_1",
+    "Turret_ForTutorial_2_0"
+   ],
+   "rate": 30.0,
+   "stop": 0.5,
+   "loop": true
+  },
+  "anim_Turret_StayAsleep": {
+   "frames": [
+    "Turret_ForTutorial_2_0"
+   ],
+   "rate": 10.0,
+   "stop": 0.10000000149011612,
+   "loop": true
+  },
+  "anim_Turret_TransitionLeft": {
+   "frames": [
+    "Turret_ForTutorial_2_36",
+    "Turret_ForTutorial_2_37",
+    "Turret_ForTutorial_2_38",
+    "Turret_ForTutorial_2_39",
+    "Turret_ForTutorial_2_40"
+   ],
+   "rate": 15.0,
+   "stop": 0.3333333432674408,
+   "loop": true
+  },
+  "anim_Turret_Wake": {
+   "frames": [
+    "Turret_ForTutorial_2_0",
+    "Turret_ForTutorial_2_1",
+    "Turret_ForTutorial_2_2",
+    "Turret_ForTutorial_2_3",
+    "Turret_ForTutorial_2_4",
+    "Turret_ForTutorial_2_5",
+    "Turret_ForTutorial_2_6",
+    "Turret_ForTutorial_2_7",
+    "Turret_ForTutorial_2_8",
+    "Turret_ForTutorial_2_9",
+    "Turret_ForTutorial_2_10",
+    "Turret_ForTutorial_2_11",
+    "Turret_ForTutorial_2_12",
+    "Turret_ForTutorial_2_13",
+    "Turret_ForTutorial_2_14",
+    "Turret_ForTutorial_2_15",
+    "Turret_ForTutorial_2_16",
+    "Turret_ForTutorial_2_17",
+    "Turret_ForTutorial_2_18",
+    "Turret_ForTutorial_2_19",
+    "Turret_ForTutorial_2_20",
+    "Turret_ForTutorial_2_21",
+    "Turret_ForTutorial_2_22",
+    "Turret_ForTutorial_2_23",
+    "Turret_ForTutorial_2_24",
+    "Turret_ForTutorial_2_25",
+    "Turret_ForTutorial_2_26",
+    "Turret_ForTutorial_2_27",
+    "Turret_ForTutorial_2_28",
+    "Turret_ForTutorial_2_29"
+   ],
+   "rate": 30.0,
+   "stop": 1.2999999523162842,
+   "loop": true
+  },
+  "anim_UNKNOWNlol": {
+   "frames": [
+    "Turret_ForTutorial_2_31",
+    "Turret_ForTutorial_2_32",
+    "Turret_ForTutorial_2_33",
+    "Turret_ForTutorial_2_34",
+    "Turret_ForTutorial_2_35"
+   ],
+   "rate": 15.0,
+   "stop": 0.3333333432674408,
+   "loop": true
+  },
+  "anim_npc_idle": {
+   "frames": [
+    "spr_npc_molerat_0"
+   ],
+   "rate": 60.0,
+   "stop": 0.01666666753590107,
+   "loop": true
+  },
+  "anim_plrDrill": {
+   "frames": [
+    "char_17",
+    "char_18"
+   ],
+   "rate": 60.0,
+   "stop": 0.11666666716337204,
+   "loop": true
+  },
+  "anim_plrFall": {
+   "frames": [
+    "char_12"
+   ],
+   "rate": 60.0,
+   "stop": 0.01666666753590107,
+   "loop": true
+  },
+  "anim_plrIdle": {
+   "frames": [
+    "char_0",
+    "char_1",
+    "char_2",
+    "char_3",
+    "char_0"
+   ],
+   "rate": 60.0,
+   "stop": 0.4833333492279053,
+   "loop": true
+  },
+  "anim_plrJump": {
+   "frames": [
+    "char_13"
+   ],
+   "rate": 60.0,
+   "stop": 0.01666666753590107,
+   "loop": true
+  },
+  "anim_plrWalk": {
+   "frames": [
+    "char_4",
+    "char_5",
+    "char_6",
+    "char_7",
+    "char_8",
+    "char_9",
+    "char_10",
+    "char_11",
+    "char_4"
+   ],
+   "rate": 60.0,
+   "stop": 1.0499999523162842,
+   "loop": true
+  },
+  "anim_plrWallSlide": {
+   "frames": [
+    "char_16"
+   ],
+   "rate": 60.0,
+   "stop": 0.01666666753590107,
+   "loop": true
+  },
+  "npc_walk": {
+   "frames": [
+    "spr_npc_molerat_0",
+    "spr_npc_molerat_1",
+    "spr_npc_molerat_0"
+   ],
+   "rate": 60.0,
+   "stop": 0.28333336114883423,
+   "loop": true
+  }
+ }
+}
