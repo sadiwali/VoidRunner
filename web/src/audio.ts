@@ -104,6 +104,10 @@ export const SONGS: Song[] = [
   },
 ];
 
+export type Sfx =
+  | 'jump' | 'double' | 'land' | 'hit' | 'shoot' | 'checkpoint' | 'notif' | 'ach' | 'die' | 'select' | 'wall'
+  | 'drill' | 'stomp' | 'shove' | 'respawn' | 'portal' | 'lunge' | 'molehop' | 'alert' | 'wake' | 'sleep' | 'charge';
+
 const mtof = (m: number) => 440 * Math.pow(2, (m - 69) / 12);
 
 class Synth {
@@ -135,6 +139,20 @@ class Synth {
       this.sfxBus = this.ctx.createGain();
       this.sfxBus.gain.value = 0.5;
       this.sfxBus.connect(this.master);
+      // a little synthetic room reverb on everything
+      const verb = this.ctx.createConvolver();
+      const vlen = Math.floor(this.ctx.sampleRate * 1.8);
+      const ir = this.ctx.createBuffer(2, vlen, this.ctx.sampleRate);
+      for (let ch = 0; ch < 2; ch++) {
+        const d = ir.getChannelData(ch);
+        for (let i = 0; i < vlen; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / vlen, 3.2);
+      }
+      verb.buffer = ir;
+      const wet = this.ctx.createGain();
+      wet.gain.value = 0.22;
+      verb.connect(wet).connect(this.master);
+      this.musicBus.connect(verb);
+      this.sfxBus.connect(verb);
       const len = this.ctx.sampleRate;
       this.noise = this.ctx.createBuffer(1, len, this.ctx.sampleRate);
       const d = this.noise.getChannelData(0);
@@ -147,6 +165,18 @@ class Synth {
   setMuted(m: boolean) {
     this.muted = m;
     if (this.ctx) this.master.gain.setTargetAtTime(m ? 0 : 1, this.ctx.currentTime, 0.1);
+  }
+
+  /** Muffle the music (pause menu). */
+  duck(on: boolean) {
+    if (!this.ctx) return;
+    this.musicBus.gain.setTargetAtTime(on ? 0.1 : 0.32, this.ctx.currentTime, 0.15);
+  }
+
+  /** Positional-ish sound effect: vol 0..1 scales the effect, 0 skips it. */
+  sfxAt(name: Sfx, vol: number) {
+    if (!this.ctx || vol <= 0.02) return;
+    this.sfx(name, vol);
   }
 
   play(index: number) {
@@ -299,10 +329,16 @@ class Synth {
   }
 
   // ---- Sound effects ----
-  sfx(name: 'jump' | 'land' | 'hit' | 'shoot' | 'checkpoint' | 'notif' | 'ach' | 'die' | 'select' | 'wall') {
+  sfx(name: Sfx, vol = 1) {
     if (!this.ctx) return;
     const t = this.ctx.currentTime + 0.005;
-    const bus = this.sfxBus;
+    let bus: AudioNode = this.sfxBus;
+    if (vol < 1) {
+      const g = this.ctx.createGain();
+      g.gain.value = vol;
+      g.connect(this.sfxBus);
+      bus = g;
+    }
     switch (name) {
       case 'jump': {
         const c = this.ctx;
@@ -360,7 +396,68 @@ class Synth {
       case 'select':
         this.tone(mtof(76), t, 0.07, 'square', 0.08, bus, 3000);
         break;
+      case 'double':
+        this.sweep(420, 1100, t, 0.14, 'triangle', 0.13, bus);
+        this.noiseHit(t, 0.12, 0.12, 'highpass', 3000, bus);
+        break;
+      case 'drill':
+        this.sweep(900, 220, t, 0.18, 'sawtooth', 0.06, bus);
+        this.noiseHit(t, 0.2, 0.12, 'bandpass', 2500, bus);
+        break;
+      case 'stomp':
+        // spikes! a sharp crunch and a yelp
+        this.noiseHit(t, 0.09, 0.4, 'bandpass', 3200, bus);
+        this.sweep(900, 1500, t + 0.02, 0.09, 'square', 0.07, bus);
+        this.tone(160, t, 0.12, 'square', 0.12, bus, 900);
+        break;
+      case 'shove':
+        this.noiseHit(t, 0.14, 0.35, 'lowpass', 900, bus);
+        this.sweep(220, 90, t, 0.16, 'square', 0.12, bus);
+        break;
+      case 'respawn':
+        [60, 67, 72, 79].forEach((n, k) => this.tone(mtof(n), t + k * 0.05, 0.35, 'triangle', 0.09, bus, 3000));
+        this.sweep(200, 1200, t, 0.35, 'sine', 0.08, bus);
+        break;
+      case 'portal':
+        [72, 76, 79, 84, 88, 91].forEach((n, k) => this.tone(mtof(n), t + k * 0.05, 0.6, 'triangle', 0.08, bus, 4000));
+        this.sweep(300, 2000, t, 0.6, 'sine', 0.08, bus);
+        break;
+      case 'lunge':
+        this.sweep(500, 900, t, 0.1, 'sawtooth', 0.07, bus);
+        this.noiseHit(t, 0.1, 0.18, 'bandpass', 1500, bus);
+        break;
+      case 'molehop':
+        this.sweep(300, 520, t, 0.08, 'square', 0.04, bus);
+        break;
+      case 'alert':
+        // squeak
+        this.sweep(1300, 2100, t, 0.06, 'square', 0.05, bus);
+        this.sweep(1500, 2300, t + 0.07, 0.07, 'square', 0.05, bus);
+        break;
+      case 'wake':
+        this.sweep(200, 600, t, 0.25, 'sawtooth', 0.06, bus);
+        break;
+      case 'sleep':
+        this.sweep(600, 180, t, 0.3, 'sawtooth', 0.05, bus);
+        break;
+      case 'charge':
+        this.sweep(300, 1400, t, 0.48, 'sine', 0.06, bus);
+        break;
     }
+  }
+
+  private sweep(f0: number, f1: number, t: number, dur: number, wave: Wave, vol: number, bus: AudioNode) {
+    const c = this.ctx!;
+    const o = c.createOscillator();
+    const g = c.createGain();
+    o.type = wave;
+    o.frequency.setValueAtTime(f0, t);
+    o.frequency.exponentialRampToValueAtTime(f1, t + dur);
+    g.gain.setValueAtTime(vol, t);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    o.connect(g).connect(bus);
+    o.start(t);
+    o.stop(t + dur + 0.02);
   }
 }
 

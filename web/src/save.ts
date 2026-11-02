@@ -7,6 +7,7 @@ export interface SaveData {
   muted: boolean;
   best: Record<string, number>; // best time per level, seconds
   timesPlayed: number;
+  quality?: 'high' | 'low';
 }
 
 const fresh = (): SaveData => ({ level: 0, achievements: [], muted: false, best: {}, timesPlayed: 0 });

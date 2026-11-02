@@ -16,8 +16,18 @@ export const PLAYER = {
   minWallJumpPower: 20,
   drillSpeed: 10,
   wallJumpDecreaseMultiplier: 5,
-  maxHealth: 5,
+  maxHealth: 5, // hearts; health is tracked in half-hearts
   mass: 1,
+  // game-feel additions (not in the 2015 build)
+  coyoteTime: 0.1, // seconds you can still jump after running off a ledge
+  jumpBuffer: 0.13, // seconds a jump press is remembered before landing
+  jumpCut: 0.5, // vertical speed multiplier when the jump key is released early
+  invulnerable: 1.2, // seconds of protection after taking damage
+};
+
+export const DAMAGE = {
+  bullet: 2, // half-hearts (one heart, as in the original)
+  stomp: 1, // half a heart for landing on a molerat's spiky back
 };
 
 export const MOLERAT = {
@@ -47,9 +57,10 @@ export const CAMERA = {
 };
 
 export const LEVELS = [
-  { key: 'lvl1', name: 'LEVEL ONE (COLD)', music: 0 },
-  { key: 'lvl2', name: 'LEVEL TWO (DARK)', music: 1 },
-  { key: 'lvl3', name: 'LEVEL THREE (DEATH)', music: 2 },
+  { key: 'lvl1', name: 'LEVEL ONE (COLD)', short: 'COLD', music: 0 },
+  { key: 'lvl2', name: 'LEVEL TWO (DARK)', short: 'DARK', music: 1 },
+  { key: 'lvl3', name: 'LEVEL THREE (DEATH)', short: 'DEATH', music: 2 },
 ];
 
-export const UI_FONT = '"Segoe UI", "Helvetica Neue", Arial, sans-serif';
+export const UI_FONT = '"Chakra Petch", "Segoe UI", Arial, sans-serif';
+export const TITLE_FONT = 'Orbitron, "Chakra Petch", sans-serif';
